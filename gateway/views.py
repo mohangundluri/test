@@ -3,8 +3,8 @@ from .forms import PaymentForm
 import razorpay
 from .models import PaymentModel
 
-razorpay_key_id = "rzp_test_gdPfb2uDkQb1p7"
-razorpay_key_secret = "zgiJ5ruQjsph4Ieyd3tofdl3"
+razorpay_key_id = "rzp_test_dXoF5LUpycLixy"
+razorpay_key_secret = "LYiDEcTlt5AHnnbqoAimgEyA"
 def home(request):
     
     if request.method == "POST":
