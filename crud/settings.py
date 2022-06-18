@@ -134,8 +134,6 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR/ 'staticfiles'
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = BASW_DIR/ 'uploads'
-MEDIA_URL = '/images/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
